@@ -1,6 +1,5 @@
 {
-	"DataContract": "Earbud Headphones products",
-	"DataContractID": ""
+	"TaskName": "Earbud Headphones products",
 	"MinPageUrlsInBuffer": 5,
 	"Tasks": {
 		"task_get_urls": {
@@ -41,19 +40,18 @@
 			"NextUrls": [
 				"//*[@id='pagnNextLink']"
 			]
-		}
-	},
-	"task_get_data": {
-
-		"TaskID": "",
-		"TargetURL": "TaskID",
-		"Data": {
-			"Name": "//*[@id='productTitle']",
-			"Price": "//*[@id='priceblock_ourprice']",
-			"Description0": "//*[@id='aplus']/div/div[1]/div/div[1]/div[1]/div/div[2]/p",
-			"Description1": "//*[@id='aplus']/div/div[1]/div/div[1]/div[1]/div/div[2]/p[1]",
-			"Description2": "//*[@id='productDescription']/div[1]/div/div/div[2]/div[2]"
 		},
-		"NextUrls": "TaskID"
+		"task_get_data": {
+			"TaskID": "",
+			"TargetURL": "TaskID",
+			"Data": {
+				"Name": "//*[@id='productTitle']",
+				"Price": "//*[@id='priceblock_ourprice']",
+				"Description0": "//*[@id='aplus']/div/div[1]/div/div[1]/div[1]/div/div[2]/p",
+				"Description1": "//*[@id='aplus']/div/div[1]/div/div[1]/div[1]/div/div[2]/p[1]",
+				"Description2": "//*[@id='productDescription']/div[1]/div/div/div[2]/div[2]"
+			},
+			"NextUrls": "TaskID"
+		}
 	}
 }
