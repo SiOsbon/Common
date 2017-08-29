@@ -2,7 +2,7 @@
 	"TaskName": "Earbud Headphones products",
 	"MinPageUrlsInBuffer": 5,
 	"Tasks": {
-		"GetUrls": {
+		"task_get_urls": {
 			"TaskID": "",
 			"TargetURL": "https://www.amazon.com/Earbud-In-Ear-Headphones/b/ref=sn_gfs_co_coins_12097478011_1?ie=UTF8&node=12097478011&pf_rd_p=28d73b43-f35e-4996-90fe-fb4130c98842&pf_rd_r=HXSGM607T31Q9J95R0M6&pf_rd_s=home-audio-subnav-flyout-content-2&pf_rd_t=SubnavFlyout",
 			"Data": {
@@ -42,7 +42,7 @@
 			]
 		}
 	},
-	"GetData": {
+	"task_get_data": {
 
 		"TaskID": "",
 		"TargetURL": "TaskID",
