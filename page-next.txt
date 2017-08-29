@@ -1,6 +1,6 @@
 {
-	"TaskName": "Earbud Headphones",
-	"TaskID": "",
+	"DataContract": "Earbud Headphones",
+	"DataContractID": "",
 	"Tasks": {
 		"task_get_data": {
 			"TaskID": "",

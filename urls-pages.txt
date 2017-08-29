@@ -1,5 +1,6 @@
 {
-	"TaskName": "Earbud Headphones products",
+	"DataContract": "Earbud Headphones products",
+	"DataContractID": ""
 	"MinPageUrlsInBuffer": 5,
 	"Tasks": {
 		"task_get_urls": {
