@@ -1,11 +1,13 @@
 {
-	"DataContract": "Earbud Headphones products",
-	"MinPageUrlsInBuffer": 5,
-	"Tasks": {
-		"task_get_urls": {
-			"TaskID": "",
-			"TargetURL": "https://www.amazon.com/Earbud-In-Ear-Headphones/b/ref=sn_gfs_co_coins_12097478011_1?ie=UTF8&node=12097478011&pf_rd_p=28d73b43-f35e-4996-90fe-fb4130c98842&pf_rd_r=HXSGM607T31Q9J95R0M6&pf_rd_s=home-audio-subnav-flyout-content-2&pf_rd_t=SubnavFlyout",
-			"Data": {
+	"name": "Earbud Headphones products",
+	"id": "",
+	"minPageUrlsInBuffer": 5,
+	"tasks": [
+		{
+			"type": "GetUrls",
+			"id": "",
+			"targetURL": "https://www.amazon.com/Earbud-In-Ear-Headphones/b/ref=sn_gfs_co_coins_12097478011_1?ie=UTF8&node=12097478011&pf_rd_p=28d73b43-f35e-4996-90fe-fb4130c98842&pf_rd_r=HXSGM607T31Q9J95R0M6&pf_rd_s=home-audio-subnav-flyout-content-2&pf_rd_t=SubnavFlyout",
+			"data": {
 				"link1": "//*[@id='s-results-list-atf']/li[1]/div/div[2]/div/div/a/@href",
 				"link2": "//*[@id='s-results-list-atf']/li[2]/div/div[2]/div/div/a/@href",
 				"link3": "//*[@id='s-results-list-atf']/li[3]/div/div[2]/div/div/a/@href",
@@ -37,25 +39,26 @@
 				"link29": "//*[@id='s-results-list-atf']/li[29]/div/div[2]/div/div/a/@href",
 				"link30": "//*[@id='s-results-list-atf']/li[30]/div/div[2]/div/div/a/@href"
 			},
-			"NextUrls": {
+			"nextUrls": {
 				"Url": "//*[@id='pagnNextLink']",
 				"UrlFromTask": ""
 			}
 		},
-		"task_get_data": {
-			"TaskID": "",
-			"TargetURL": "TaskID",
-			"Data": {
+		{
+			"type": "GetUrls",
+			"id": "",
+			"targetURL": "TaskID",
+			"data": {
 				"Name": "//*[@id='productTitle']",
 				"Price": "//*[@id='priceblock_ourprice']",
 				"Description0": "//*[@id='aplus']/div/div[1]/div/div[1]/div[1]/div/div[2]/p",
 				"Description1": "//*[@id='aplus']/div/div[1]/div/div[1]/div[1]/div/div[2]/p[1]",
 				"Description2": "//*[@id='productDescription']/div[1]/div/div/div[2]/div[2]"
 			},
-			"NextUrls": {
+			"nextUrls": {
 				"Url": "",
 				"UrlFromTask": "TaskID"
 			}
 		}
-	}
+	]
 }
