@@ -39,7 +39,7 @@
 				"link29": "//*[@id='s-results-list-atf']/li[29]/div/div[2]/div/div/a/@href",
 				"link30": "//*[@id='s-results-list-atf']/li[30]/div/div[2]/div/div/a/@href"
 			},
-			"nextUrls": {
+			"urls": {
 				"Url": "//*[@id='pagnNextLink']",
 				"UrlFromTask": ""
 			}
@@ -55,7 +55,7 @@
 				"Description1": "//*[@id='aplus']/div/div[1]/div/div[1]/div[1]/div/div[2]/p[1]",
 				"Description2": "//*[@id='productDescription']/div[1]/div/div/div[2]/div[2]"
 			},
-			"nextUrls": {
+			"urls": {
 				"Url": "",
 				"UrlFromTask": "TaskID"
 			}
