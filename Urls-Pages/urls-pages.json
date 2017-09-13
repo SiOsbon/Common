@@ -45,7 +45,7 @@
 			}
 		},
 		{
-			"type": "GetUrls",
+			"type": "GetData",
 			"id": "",
 			"targetURL": "TaskID",
 			"data": {
